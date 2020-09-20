@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/galleryFragment">
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="ru.spider.spidergrouptest.view.fragments.GalleryFragment"
+        android:label="GalleryFragment" >
+        <action
+            android:id="@+id/action_galleryFragment_to_imageDetailFragment"
+            app:destination="@id/imageDetailFragment" />
+        <argument
+            android:name="author"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="imageUrl"
+            app:argType="string" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/imageDetailFragment"
+        android:name="ru.spider.spidergrouptest.view.fragments.ImageDetailFragment"
+        android:label="ImageDetailFragment" />
+</navigation>

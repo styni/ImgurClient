@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SpiderGroupTest</string>
+    <string name="comments">Comments</string>
+    <string name="gallery">Gallery</string>
+    <string name="info">Image info</string>
+</resources>
