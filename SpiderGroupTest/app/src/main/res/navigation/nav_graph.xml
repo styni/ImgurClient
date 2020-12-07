@@ -6,7 +6,7 @@
     app:startDestination="@id/galleryFragment">
     <fragment
         android:id="@+id/galleryFragment"
-        android:name="ru.spider.spidergrouptest.view.fragments.GalleryFragment"
+        android:name="ru.spider.imgurclient.view.fragments.GalleryFragment"
         android:label="GalleryFragment" >
         <action
             android:id="@+id/action_galleryFragment_to_imageDetailFragment"
@@ -26,6 +26,6 @@
     </fragment>
     <fragment
         android:id="@+id/imageDetailFragment"
-        android:name="ru.spider.spidergrouptest.view.fragments.ImageDetailFragment"
+        android:name="ru.spider.imgurclient.view.fragments.ImageDetailFragment"
         android:label="ImageDetailFragment" />
 </navigation>

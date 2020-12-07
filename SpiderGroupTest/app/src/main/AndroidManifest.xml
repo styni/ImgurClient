@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ru.spider.spidergrouptest">
+    package="ru.spider.imgurclient">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".di.App">
-        <activity android:name=".view.activities.MainActivity"
+        android:name="ru.spider.imgurclient.di.App">
+        <activity android:name="ru.spider.imgurclient.view.activities.MainActivity"
             android:theme="@style/WithoutActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -7,7 +7,7 @@
     <data>
         <variable
             name="viewModel"
-            type="ru.spider.spidergrouptest.view.viewModels.ImageDetailViewModel"/>
+            type="ru.spider.imgurclient.view.viewModels.ImageDetailViewModel"/>
     </data>
 
     <LinearLayout
