@@ -1,1 +1,1 @@
-# SpiderGroupTest
+# Lite ImgurClient
